@@ -3,7 +3,7 @@
 //  XHBFoundation
 //
 //  Created by weqia on 14-10-23.
-//  Copyright (c) 2014year xhb. All rights reserved.
+//  Copyright (c) 2014年 xhb. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -41,14 +41,9 @@ FOUNDATION_EXPORT const unsigned char XHBFoundationVersionString[];
 
 #import <XHBFoundation/XHBPrecompile.h>
 #import <XHBFoundation/NSMutableArray+XHBFoundation.h>
-
-#import <XHBFoundation/NSMutableDictionary+XHBFoundation.h>
 #import <XHBFoundation/NSArray+XHBFoundation.h>
 
 #import <XHBFoundation/JSONKit+XHBFoundation.h>
-#import <XHBFoundation/UIDevice+XHBFoundation.h>
-
-#import <XHBFoundation/NSNumber+XHBFoundation.h>
 /**
  *  Protocol
  */
@@ -63,7 +58,6 @@ FOUNDATION_EXPORT const unsigned char XHBFoundationVersionString[];
 #import <XHBFoundation/XHBViewControllerToolProtocol.h>
 #import <XHBFoundation/XHBFileProtocol.h>
 #import <XHBFoundation/XHBTransportProtocol.h>
-#import <XHBFoundation/XHBObjectStorageProtocol.h>
 
 /**
  *  Model
@@ -83,10 +77,8 @@ FOUNDATION_EXPORT const unsigned char XHBFoundationVersionString[];
  */
 #import <XHBFoundation/XHBPlaySoundUtil.h>
 
-/**
- *   Struct
- */
-#import <XHBFoundation/XHBLocationStruct.h>
+
+
 
 
 

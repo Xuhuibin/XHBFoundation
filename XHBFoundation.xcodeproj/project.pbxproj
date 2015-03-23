@@ -6,29 +6,140 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D276DE0B1A26BB330004D13D /* XHBFoundationAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D276DE0E1A26BB330004D13D /* Build configuration list for PBXAggregateTarget "XHBFoundationAggregate" */;
+			buildPhases = (
+				D276DE0F1A26BB620004D13D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = XHBFoundationAggregate;
+			productName = XHBFoundationAggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		D229E2151A79F379008989AA /* XHBObjectStorageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D229E2141A79F379008989AA /* XHBObjectStorageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22EAA191A945185007EE3AC /* XHBLocationStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EAA181A945184007EE3AC /* XHBLocationStruct.m */; };
+		D24913511A64D37B009E255F /* NSMutableDictionary+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D249134F1A64D37B009E255F /* NSMutableDictionary+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24913521A64D37B009E255F /* NSMutableDictionary+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24913501A64D37B009E255F /* NSMutableDictionary+XHBFoundation.m */; };
+		D272CEAA1A9EBE350060ED50 /* XHBLocationStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = D272CEA91A9EBE350060ED50 /* XHBLocationStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D272CEAD1A9EBEB70060ED50 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D272CEAB1A9EBEB70060ED50 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D272CEAE1A9EBEB70060ED50 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D272CEAC1A9EBEB70060ED50 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D289912E1A134CBD0029978C /* XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D289912D1A134CBD0029978C /* XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D28991341A134CBD0029978C /* XHBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28991281A134CBD0029978C /* XHBFoundation.framework */; };
-		D289913B1A134CBD0029978C /* XHBFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D289913A1A134CBD0029978C /* XHBFoundationTests.m */; };
+		D289917C1A134D170029978C /* NSArray+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991451A134D170029978C /* NSArray+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289917D1A134D170029978C /* NSArray+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991461A134D170029978C /* NSArray+XHBFoundation.m */; };
+		D289917E1A134D170029978C /* NSMutableArray+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991471A134D170029978C /* NSMutableArray+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289917F1A134D170029978C /* NSMutableArray+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991481A134D170029978C /* NSMutableArray+XHBFoundation.m */; };
+		D28991801A134D170029978C /* NSObject+XHBKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991491A134D170029978C /* NSObject+XHBKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991811A134D170029978C /* NSObject+XHBKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D289914A1A134D170029978C /* NSObject+XHBKVO.m */; };
+		D28991821A134D170029978C /* NSOperationQueue+global.h in Headers */ = {isa = PBXBuildFile; fileRef = D289914B1A134D170029978C /* NSOperationQueue+global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991831A134D170029978C /* NSOperationQueue+global.m in Sources */ = {isa = PBXBuildFile; fileRef = D289914C1A134D170029978C /* NSOperationQueue+global.m */; };
+		D28991841A134D170029978C /* FXKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D289914E1A134D170029978C /* FXKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991851A134D170029978C /* FXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D289914F1A134D170029978C /* FXKeychain.m */; };
+		D28991861A134D170029978C /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991501A134D170029978C /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991871A134D170029978C /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991511A134D170029978C /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D28991881A134D170029978C /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991521A134D170029978C /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991891A134D170029978C /* NSGCDThread.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991531A134D170029978C /* NSGCDThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289918A1A134D170029978C /* NSGCDThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991541A134D170029978C /* NSGCDThread.m */; };
+		D289918B1A134D170029978C /* NSStrUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991551A134D170029978C /* NSStrUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289918C1A134D170029978C /* NSStrUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991561A134D170029978C /* NSStrUtil.m */; };
+		D289918D1A134D170029978C /* XHBPrecompile.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991571A134D170029978C /* XHBPrecompile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289918E1A134D170029978C /* XHBTimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991581A134D170029978C /* XHBTimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289918F1A134D170029978C /* XHBTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991591A134D170029978C /* XHBTimeUtil.m */; };
+		D28991901A134D170029978C /* XHBValidateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D289915A1A134D170029978C /* XHBValidateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991911A134D170029978C /* XHBValidateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D289915B1A134D170029978C /* XHBValidateUtil.m */; };
+		D28991921A134D170029978C /* JSONKit+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D289915D1A134D170029978C /* JSONKit+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991931A134D170029978C /* JSONKit+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D289915E1A134D170029978C /* JSONKit+XHBFoundation.m */; };
+		D28991961A134D170029978C /* Jastor.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991631A134D170029978C /* Jastor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991971A134D170029978C /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991641A134D170029978C /* Jastor.m */; };
+		D28991981A134D170029978C /* JastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991651A134D170029978C /* JastorRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991991A134D170029978C /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991661A134D170029978C /* JastorRuntimeHelper.m */; };
+		D289919A1A134D170029978C /* XHBBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991671A134D170029978C /* XHBBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289919B1A134D170029978C /* XHBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991681A134D170029978C /* XHBBaseModel.m */; };
+		D289919C1A134D170029978C /* XHBCacheProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916A1A134D170029978C /* XHBCacheProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289919D1A134D170029978C /* XHBEntityOperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916B1A134D170029978C /* XHBEntityOperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289919E1A134D170029978C /* XHBFileProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916C1A134D170029978C /* XHBFileProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289919F1A134D170029978C /* XHBFileURLConvertProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916D1A134D170029978C /* XHBFileURLConvertProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A01A134D170029978C /* XHBNetworkProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916E1A134D170029978C /* XHBNetworkProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A11A134D170029978C /* XHBNetworkResponseHandleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D289916F1A134D170029978C /* XHBNetworkResponseHandleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A21A134D170029978C /* XHBNetworkResponseParserProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991701A134D170029978C /* XHBNetworkResponseParserProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A31A134D170029978C /* XHBRequestConfigurationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991711A134D170029978C /* XHBRequestConfigurationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A41A134D170029978C /* XHBTransportProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991721A134D170029978C /* XHBTransportProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A51A134D170029978C /* XHBViewControllerCommProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991731A134D170029978C /* XHBViewControllerCommProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A61A134D170029978C /* XHBViewControllerToolProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991741A134D170029978C /* XHBViewControllerToolProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A71A134D170029978C /* XHBBaseTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991761A134D170029978C /* XHBBaseTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991A81A134D170029978C /* XHBBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D28991771A134D170029978C /* XHBBaseTool.m */; };
+		D28991A91A134D170029978C /* XHBPlaySoundUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D28991791A134D170029978C /* XHBPlaySoundUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28991AA1A134D170029978C /* XHBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D289917A1A134D170029978C /* XHBPlaySoundUtil.m */; };
+		D2A3263F1A6DE73C0010EF19 /* NSNumber+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A3263D1A6DE73C0010EF19 /* NSNumber+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A326401A6DE73C0010EF19 /* NSNumber+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3263E1A6DE73C0010EF19 /* NSNumber+XHBFoundation.m */; };
+		D2EDEC4C1A523A27008AFBE8 /* UIDevice+XHBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EDEC4A1A523A27008AFBE8 /* UIDevice+XHBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EDEC4D1A523A27008AFBE8 /* UIDevice+XHBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDEC4B1A523A27008AFBE8 /* UIDevice+XHBFoundation.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D28991351A134CBD0029978C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D289911F1A134CBD0029978C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D28991271A134CBD0029978C;
-			remoteInfo = XHBFoundation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D229E2141A79F379008989AA /* XHBObjectStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBObjectStorageProtocol.h; sourceTree = "<group>"; };
+		D22EAA181A945184007EE3AC /* XHBLocationStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBLocationStruct.m; sourceTree = "<group>"; };
+		D249134F1A64D37B009E255F /* NSMutableDictionary+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XHBFoundation.h"; sourceTree = "<group>"; };
+		D24913501A64D37B009E255F /* NSMutableDictionary+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XHBFoundation.m"; sourceTree = "<group>"; };
+		D272CEA91A9EBE350060ED50 /* XHBLocationStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBLocationStruct.h; sourceTree = "<group>"; };
+		D272CEAB1A9EBEB70060ED50 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D272CEAC1A9EBEB70060ED50 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		D28991281A134CBD0029978C /* XHBFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D289912C1A134CBD0029978C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D289912D1A134CBD0029978C /* XHBFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBFoundation.h; sourceTree = "<group>"; };
-		D28991331A134CBD0029978C /* XHBFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHBFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28991391A134CBD0029978C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D289913A1A134CBD0029978C /* XHBFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBFoundationTests.m; sourceTree = "<group>"; };
+		D28991451A134D170029978C /* NSArray+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XHBFoundation.h"; sourceTree = "<group>"; };
+		D28991461A134D170029978C /* NSArray+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XHBFoundation.m"; sourceTree = "<group>"; };
+		D28991471A134D170029978C /* NSMutableArray+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XHBFoundation.h"; sourceTree = "<group>"; };
+		D28991481A134D170029978C /* NSMutableArray+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XHBFoundation.m"; sourceTree = "<group>"; };
+		D28991491A134D170029978C /* NSObject+XHBKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XHBKVO.h"; sourceTree = "<group>"; };
+		D289914A1A134D170029978C /* NSObject+XHBKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XHBKVO.m"; sourceTree = "<group>"; };
+		D289914B1A134D170029978C /* NSOperationQueue+global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+global.h"; sourceTree = "<group>"; };
+		D289914C1A134D170029978C /* NSOperationQueue+global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+global.m"; sourceTree = "<group>"; };
+		D289914E1A134D170029978C /* FXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXKeychain.h; sourceTree = "<group>"; };
+		D289914F1A134D170029978C /* FXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXKeychain.m; sourceTree = "<group>"; };
+		D28991501A134D170029978C /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		D28991511A134D170029978C /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		D28991521A134D170029978C /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		D28991531A134D170029978C /* NSGCDThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSGCDThread.h; sourceTree = "<group>"; };
+		D28991541A134D170029978C /* NSGCDThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSGCDThread.m; sourceTree = "<group>"; };
+		D28991551A134D170029978C /* NSStrUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStrUtil.h; sourceTree = "<group>"; };
+		D28991561A134D170029978C /* NSStrUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStrUtil.m; sourceTree = "<group>"; };
+		D28991571A134D170029978C /* XHBPrecompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBPrecompile.h; sourceTree = "<group>"; };
+		D28991581A134D170029978C /* XHBTimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBTimeUtil.h; sourceTree = "<group>"; };
+		D28991591A134D170029978C /* XHBTimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBTimeUtil.m; sourceTree = "<group>"; };
+		D289915A1A134D170029978C /* XHBValidateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBValidateUtil.h; sourceTree = "<group>"; };
+		D289915B1A134D170029978C /* XHBValidateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBValidateUtil.m; sourceTree = "<group>"; };
+		D289915D1A134D170029978C /* JSONKit+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONKit+XHBFoundation.h"; sourceTree = "<group>"; };
+		D289915E1A134D170029978C /* JSONKit+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONKit+XHBFoundation.m"; sourceTree = "<group>"; };
+		D28991631A134D170029978C /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		D28991641A134D170029978C /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		D28991651A134D170029978C /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		D28991661A134D170029978C /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		D28991671A134D170029978C /* XHBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBBaseModel.h; sourceTree = "<group>"; };
+		D28991681A134D170029978C /* XHBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBBaseModel.m; sourceTree = "<group>"; };
+		D289916A1A134D170029978C /* XHBCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBCacheProtocol.h; sourceTree = "<group>"; };
+		D289916B1A134D170029978C /* XHBEntityOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBEntityOperationProtocol.h; sourceTree = "<group>"; };
+		D289916C1A134D170029978C /* XHBFileProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBFileProtocol.h; sourceTree = "<group>"; };
+		D289916D1A134D170029978C /* XHBFileURLConvertProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBFileURLConvertProtocol.h; sourceTree = "<group>"; };
+		D289916E1A134D170029978C /* XHBNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBNetworkProtocol.h; sourceTree = "<group>"; };
+		D289916F1A134D170029978C /* XHBNetworkResponseHandleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBNetworkResponseHandleProtocol.h; sourceTree = "<group>"; };
+		D28991701A134D170029978C /* XHBNetworkResponseParserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBNetworkResponseParserProtocol.h; sourceTree = "<group>"; };
+		D28991711A134D170029978C /* XHBRequestConfigurationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBRequestConfigurationProtocol.h; sourceTree = "<group>"; };
+		D28991721A134D170029978C /* XHBTransportProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBTransportProtocol.h; sourceTree = "<group>"; };
+		D28991731A134D170029978C /* XHBViewControllerCommProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBViewControllerCommProtocol.h; sourceTree = "<group>"; };
+		D28991741A134D170029978C /* XHBViewControllerToolProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBViewControllerToolProtocol.h; sourceTree = "<group>"; };
+		D28991761A134D170029978C /* XHBBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBBaseTool.h; sourceTree = "<group>"; };
+		D28991771A134D170029978C /* XHBBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBBaseTool.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D28991791A134D170029978C /* XHBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBPlaySoundUtil.h; sourceTree = "<group>"; };
+		D289917A1A134D170029978C /* XHBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBPlaySoundUtil.m; sourceTree = "<group>"; };
+		D2A3263D1A6DE73C0010EF19 /* NSNumber+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XHBFoundation.h"; sourceTree = "<group>"; };
+		D2A3263E1A6DE73C0010EF19 /* NSNumber+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XHBFoundation.m"; sourceTree = "<group>"; };
+		D2EDEC4A1A523A27008AFBE8 /* UIDevice+XHBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XHBFoundation.h"; sourceTree = "<group>"; };
+		D2EDEC4B1A523A27008AFBE8 /* UIDevice+XHBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XHBFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,14 +150,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28991301A134CBD0029978C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28991341A134CBD0029978C /* XHBFoundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				D289912A1A134CBD0029978C /* XHBFoundation */,
-				D28991371A134CBD0029978C /* XHBFoundationTests */,
 				D28991291A134CBD0029978C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				D28991281A134CBD0029978C /* XHBFoundation.framework */,
-				D28991331A134CBD0029978C /* XHBFoundationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +172,15 @@
 		D289912A1A134CBD0029978C /* XHBFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				D2DB7C241A8FA30C00ABD9AF /* Struct */,
+				D28991441A134D170029978C /* Category */,
+				D289914D1A134D170029978C /* Global */,
+				D289915C1A134D170029978C /* Json */,
+				D28991611A134D170029978C /* Models */,
+				D28991691A134D170029978C /* protocol */,
+				D28991751A134D170029978C /* Tools */,
+				D28991781A134D170029978C /* Utils */,
+				D289917B1A134D170029978C /* ViewModelRelation */,
 				D289912D1A134CBD0029978C /* XHBFoundation.h */,
 				D289912B1A134CBD0029978C /* Supporting Files */,
 			);
@@ -85,21 +195,131 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D28991371A134CBD0029978C /* XHBFoundationTests */ = {
+		D28991441A134D170029978C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D289913A1A134CBD0029978C /* XHBFoundationTests.m */,
-				D28991381A134CBD0029978C /* Supporting Files */,
+				D28991451A134D170029978C /* NSArray+XHBFoundation.h */,
+				D28991461A134D170029978C /* NSArray+XHBFoundation.m */,
+				D28991471A134D170029978C /* NSMutableArray+XHBFoundation.h */,
+				D28991481A134D170029978C /* NSMutableArray+XHBFoundation.m */,
+				D28991491A134D170029978C /* NSObject+XHBKVO.h */,
+				D289914A1A134D170029978C /* NSObject+XHBKVO.m */,
+				D289914B1A134D170029978C /* NSOperationQueue+global.h */,
+				D289914C1A134D170029978C /* NSOperationQueue+global.m */,
+				D2EDEC4A1A523A27008AFBE8 /* UIDevice+XHBFoundation.h */,
+				D2EDEC4B1A523A27008AFBE8 /* UIDevice+XHBFoundation.m */,
+				D249134F1A64D37B009E255F /* NSMutableDictionary+XHBFoundation.h */,
+				D24913501A64D37B009E255F /* NSMutableDictionary+XHBFoundation.m */,
+				D2A3263D1A6DE73C0010EF19 /* NSNumber+XHBFoundation.h */,
+				D2A3263E1A6DE73C0010EF19 /* NSNumber+XHBFoundation.m */,
 			);
-			path = XHBFoundationTests;
+			path = Category;
 			sourceTree = "<group>";
 		};
-		D28991381A134CBD0029978C /* Supporting Files */ = {
+		D289914D1A134D170029978C /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				D28991391A134CBD0029978C /* Info.plist */,
+				D289914E1A134D170029978C /* FXKeychain.h */,
+				D289914F1A134D170029978C /* FXKeychain.m */,
+				D28991501A134D170029978C /* GTMBase64.h */,
+				D28991511A134D170029978C /* GTMBase64.m */,
+				D28991521A134D170029978C /* GTMDefines.h */,
+				D28991531A134D170029978C /* NSGCDThread.h */,
+				D28991541A134D170029978C /* NSGCDThread.m */,
+				D28991551A134D170029978C /* NSStrUtil.h */,
+				D28991561A134D170029978C /* NSStrUtil.m */,
+				D28991571A134D170029978C /* XHBPrecompile.h */,
+				D28991581A134D170029978C /* XHBTimeUtil.h */,
+				D28991591A134D170029978C /* XHBTimeUtil.m */,
+				D289915A1A134D170029978C /* XHBValidateUtil.h */,
+				D289915B1A134D170029978C /* XHBValidateUtil.m */,
 			);
-			name = "Supporting Files";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D289915C1A134D170029978C /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				D272CEAB1A9EBEB70060ED50 /* JSONKit.h */,
+				D272CEAC1A9EBEB70060ED50 /* JSONKit.m */,
+				D289915D1A134D170029978C /* JSONKit+XHBFoundation.h */,
+				D289915E1A134D170029978C /* JSONKit+XHBFoundation.m */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		D28991611A134D170029978C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D28991621A134D170029978C /* Base */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D28991621A134D170029978C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D28991631A134D170029978C /* Jastor.h */,
+				D28991641A134D170029978C /* Jastor.m */,
+				D28991651A134D170029978C /* JastorRuntimeHelper.h */,
+				D28991661A134D170029978C /* JastorRuntimeHelper.m */,
+				D28991671A134D170029978C /* XHBBaseModel.h */,
+				D28991681A134D170029978C /* XHBBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D28991691A134D170029978C /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D289916A1A134D170029978C /* XHBCacheProtocol.h */,
+				D289916B1A134D170029978C /* XHBEntityOperationProtocol.h */,
+				D289916C1A134D170029978C /* XHBFileProtocol.h */,
+				D289916D1A134D170029978C /* XHBFileURLConvertProtocol.h */,
+				D289916E1A134D170029978C /* XHBNetworkProtocol.h */,
+				D289916F1A134D170029978C /* XHBNetworkResponseHandleProtocol.h */,
+				D28991701A134D170029978C /* XHBNetworkResponseParserProtocol.h */,
+				D28991711A134D170029978C /* XHBRequestConfigurationProtocol.h */,
+				D28991721A134D170029978C /* XHBTransportProtocol.h */,
+				D28991731A134D170029978C /* XHBViewControllerCommProtocol.h */,
+				D28991741A134D170029978C /* XHBViewControllerToolProtocol.h */,
+				D229E2141A79F379008989AA /* XHBObjectStorageProtocol.h */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		D28991751A134D170029978C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D28991761A134D170029978C /* XHBBaseTool.h */,
+				D28991771A134D170029978C /* XHBBaseTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D28991781A134D170029978C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D28991791A134D170029978C /* XHBPlaySoundUtil.h */,
+				D289917A1A134D170029978C /* XHBPlaySoundUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D289917B1A134D170029978C /* ViewModelRelation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModelRelation;
+			sourceTree = "<group>";
+		};
+		D2DB7C241A8FA30C00ABD9AF /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				D272CEA91A9EBE350060ED50 /* XHBLocationStruct.h */,
+				D22EAA181A945184007EE3AC /* XHBLocationStruct.m */,
+			);
+			name = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +329,41 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D289917E1A134D170029978C /* NSMutableArray+XHBFoundation.h in Headers */,
+				D28991A41A134D170029978C /* XHBTransportProtocol.h in Headers */,
+				D289918B1A134D170029978C /* NSStrUtil.h in Headers */,
+				D28991A91A134D170029978C /* XHBPlaySoundUtil.h in Headers */,
+				D28991861A134D170029978C /* GTMBase64.h in Headers */,
+				D28991891A134D170029978C /* NSGCDThread.h in Headers */,
+				D289919C1A134D170029978C /* XHBCacheProtocol.h in Headers */,
+				D28991821A134D170029978C /* NSOperationQueue+global.h in Headers */,
+				D28991A11A134D170029978C /* XHBNetworkResponseHandleProtocol.h in Headers */,
+				D289919D1A134D170029978C /* XHBEntityOperationProtocol.h in Headers */,
+				D28991981A134D170029978C /* JastorRuntimeHelper.h in Headers */,
+				D289919E1A134D170029978C /* XHBFileProtocol.h in Headers */,
+				D289918D1A134D170029978C /* XHBPrecompile.h in Headers */,
+				D28991961A134D170029978C /* Jastor.h in Headers */,
+				D28991881A134D170029978C /* GTMDefines.h in Headers */,
+				D28991801A134D170029978C /* NSObject+XHBKVO.h in Headers */,
+				D28991A21A134D170029978C /* XHBNetworkResponseParserProtocol.h in Headers */,
+				D28991921A134D170029978C /* JSONKit+XHBFoundation.h in Headers */,
+				D28991A61A134D170029978C /* XHBViewControllerToolProtocol.h in Headers */,
+				D289919F1A134D170029978C /* XHBFileURLConvertProtocol.h in Headers */,
+				D28991A31A134D170029978C /* XHBRequestConfigurationProtocol.h in Headers */,
+				D28991A51A134D170029978C /* XHBViewControllerCommProtocol.h in Headers */,
+				D289919A1A134D170029978C /* XHBBaseModel.h in Headers */,
+				D28991A01A134D170029978C /* XHBNetworkProtocol.h in Headers */,
+				D28991841A134D170029978C /* FXKeychain.h in Headers */,
+				D289918E1A134D170029978C /* XHBTimeUtil.h in Headers */,
+				D28991A71A134D170029978C /* XHBBaseTool.h in Headers */,
+				D28991901A134D170029978C /* XHBValidateUtil.h in Headers */,
+				D2EDEC4C1A523A27008AFBE8 /* UIDevice+XHBFoundation.h in Headers */,
+				D272CEAA1A9EBE350060ED50 /* XHBLocationStruct.h in Headers */,
+				D272CEAD1A9EBEB70060ED50 /* JSONKit.h in Headers */,
+				D24913511A64D37B009E255F /* NSMutableDictionary+XHBFoundation.h in Headers */,
+				D229E2151A79F379008989AA /* XHBObjectStorageProtocol.h in Headers */,
+				D2A3263F1A6DE73C0010EF19 /* NSNumber+XHBFoundation.h in Headers */,
+				D289917C1A134D170029978C /* NSArray+XHBFoundation.h in Headers */,
 				D289912E1A134CBD0029978C /* XHBFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,24 +389,6 @@
 			productReference = D28991281A134CBD0029978C /* XHBFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D28991321A134CBD0029978C /* XHBFoundationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D28991411A134CBD0029978C /* Build configuration list for PBXNativeTarget "XHBFoundationTests" */;
-			buildPhases = (
-				D289912F1A134CBD0029978C /* Sources */,
-				D28991301A134CBD0029978C /* Frameworks */,
-				D28991311A134CBD0029978C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D28991361A134CBD0029978C /* PBXTargetDependency */,
-			);
-			name = XHBFoundationTests;
-			productName = XHBFoundationTests;
-			productReference = D28991331A134CBD0029978C /* XHBFoundationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +398,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = xhb;
 				TargetAttributes = {
-					D28991271A134CBD0029978C = {
+					D276DE0B1A26BB330004D13D = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					D28991321A134CBD0029978C = {
+					D28991271A134CBD0029978C = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
@@ -182,7 +419,7 @@
 			projectRoot = "";
 			targets = (
 				D28991271A134CBD0029978C /* XHBFoundation */,
-				D28991321A134CBD0029978C /* XHBFoundationTests */,
+				D276DE0B1A26BB330004D13D /* XHBFoundationAggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -195,56 +432,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28991311A134CBD0029978C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D276DE0F1A26BB620004D13D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D28991231A134CBD0029978C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D289912F1A134CBD0029978C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D289913B1A134CBD0029978C /* XHBFoundationTests.m in Sources */,
+				D289917D1A134D170029978C /* NSArray+XHBFoundation.m in Sources */,
+				D2EDEC4D1A523A27008AFBE8 /* UIDevice+XHBFoundation.m in Sources */,
+				D289919B1A134D170029978C /* XHBBaseModel.m in Sources */,
+				D28991AA1A134D170029978C /* XHBPlaySoundUtil.m in Sources */,
+				D28991971A134D170029978C /* Jastor.m in Sources */,
+				D272CEAE1A9EBEB70060ED50 /* JSONKit.m in Sources */,
+				D28991A81A134D170029978C /* XHBBaseTool.m in Sources */,
+				D28991871A134D170029978C /* GTMBase64.m in Sources */,
+				D24913521A64D37B009E255F /* NSMutableDictionary+XHBFoundation.m in Sources */,
+				D289917F1A134D170029978C /* NSMutableArray+XHBFoundation.m in Sources */,
+				D28991811A134D170029978C /* NSObject+XHBKVO.m in Sources */,
+				D289918F1A134D170029978C /* XHBTimeUtil.m in Sources */,
+				D28991991A134D170029978C /* JastorRuntimeHelper.m in Sources */,
+				D22EAA191A945185007EE3AC /* XHBLocationStruct.m in Sources */,
+				D2A326401A6DE73C0010EF19 /* NSNumber+XHBFoundation.m in Sources */,
+				D289918A1A134D170029978C /* NSGCDThread.m in Sources */,
+				D28991911A134D170029978C /* XHBValidateUtil.m in Sources */,
+				D28991831A134D170029978C /* NSOperationQueue+global.m in Sources */,
+				D289918C1A134D170029978C /* NSStrUtil.m in Sources */,
+				D28991851A134D170029978C /* FXKeychain.m in Sources */,
+				D28991931A134D170029978C /* JSONKit+XHBFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D28991361A134CBD0029978C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D28991271A134CBD0029978C /* XHBFoundation */;
-			targetProxy = D28991351A134CBD0029978C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		D276DE0C1A26BB330004D13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D276DE0D1A26BB330004D13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D289913C1A134CBD0029978C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,17 +526,19 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -280,16 +548,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -299,17 +568,20 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -318,13 +590,17 @@
 		D289913F1A134CBD0029978C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XHBFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -333,51 +609,34 @@
 		D28991401A134CBD0029978C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XHBFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D28991421A134CBD0029978C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XHBFoundationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D28991431A134CBD0029978C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XHBFoundationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D276DE0E1A26BB330004D13D /* Build configuration list for PBXAggregateTarget "XHBFoundationAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D276DE0C1A26BB330004D13D /* Debug */,
+				D276DE0D1A26BB330004D13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D28991221A134CBD0029978C /* Build configuration list for PBXProject "XHBFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -394,14 +653,7 @@
 				D28991401A134CBD0029978C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D28991411A134CBD0029978C /* Build configuration list for PBXNativeTarget "XHBFoundationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D28991421A134CBD0029978C /* Debug */,
-				D28991431A134CBD0029978C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

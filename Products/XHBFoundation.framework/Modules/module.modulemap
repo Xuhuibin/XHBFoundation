@@ -1,0 +1,6 @@
+framework module XHBFoundation {
+  umbrella header "XHBFoundation.h"
+
+  export *
+  module * { export * }
+}
